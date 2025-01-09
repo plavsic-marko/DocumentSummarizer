@@ -2,19 +2,20 @@
 
 ## 📄 Project Overview
 
-The **Document Summarizer** is a web application that allows users to upload PDF files and receive a summarized version of the document. The app uses **Hugging Face transformers** and **PyTorch** to perform text summarization.
+The **Document Summarizer** is a web application that allows users to upload PDF, Word (DOCX), and TXT files and receive a summarized version of the document. The app uses **Hugging Face transformers** and **PyTorch** to perform text summarization.
 
 ## ✨ Features
 
-- Upload a PDF file.
+- Upload a file (PDF, DOCX, TXT).
 - View the summarized text on the same page.
 - Clean and modern user interface.
-- Supports large PDF documents.
+- Supports large documents.
 
 ## 🛠️ Technologies Used
 
 - **Flask** – Web framework for building the application.
 - **PyMuPDF (fitz)** – For extracting text from PDF files.
+- **python-docx** – For extracting text from Word documents.
 - **Transformers (Hugging Face)** – For text summarization.
 - **PyTorch** – For running the summarization models.
 - **HTML/CSS** – For creating the user interface.
@@ -59,7 +60,7 @@ python main.py
 
 ### 6. Open the App in Your Browser
 
-Go to **http://127.0.0.1:5000** in your web browser.
+Go to **[http://127.0.0.1:5000](http://127.0.0.1:5000)** in your web browser.
 
 ## 📚 Model Used
 
@@ -69,12 +70,12 @@ The application uses the **`facebook/bart-large-cnn`** model from Hugging Face f
 
 The application features a clean and modern user interface with:
 
-- A form to upload PDF files.
+- A form to upload PDF, DOCX, or TXT files.
 - A section to display the summarized text.
 
 ### 💻 Screenshot
 
-![Document Summarizer Screenshot](slika2.png)
+![Document Summarizer Screenshot]\(slika10.png)
 
 ## 🧑‍💻 Contribution Guidelines
 
@@ -89,5 +90,4 @@ This project is licensed under the **MIT License**.
 
 ## 💬 Contact
 
-If you have any questions or suggestions, feel free to contact me via GitHub or email.
-Email: plavsicmarko10@gmail.com GitHub: https://github.com/plavsic-marko
+For any questions or feedback, please reach out to ** Email: plavsicmarko10@gmail.com GitHub: https://github.com/plavsic-marko**.

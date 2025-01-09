@@ -15,7 +15,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
         }
         h1 {
             color: #333;
@@ -76,8 +76,8 @@
 <body>
     <h1>Document Summarizer</h1>
     <form action="/summarize" method="post" enctype="multipart/form-data">
-        <label for="file">Upload PDF:</label>
-        <input type="file" id="file" name="file" accept=".pdf" required>
+        <label for="file">Upload a file (PDF, DOCX, TXT):</label>
+        <input type="file" id="file" name="file" accept=".pdf,.docx,.txt" required>
         <button type="submit">Summarize</button>
     </form>
 
