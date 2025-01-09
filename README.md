@@ -75,7 +75,7 @@ The application features a clean and modern user interface with:
 
 ### 💻 Screenshot
 
-![Document Summarizer Screenshot]\(slika10.png)
+![Document Summarizer Screenshot](slika10.png)
 
 ## 🧑‍💻 Contribution Guidelines
 
